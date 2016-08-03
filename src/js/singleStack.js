@@ -10,10 +10,8 @@
 		//warn if data has no elements
 		if(!($.isArray(data))) console.warn('Array inputted is not an array');
 		//add styles to div
-		this.css('display', 'table');
-		this.css('width', '100%');
-		this.css('overflow', 'hidden');
-		this.css('border-top', 0);
+		this.addClass('single-stack-bar-container');
+
 		//return length
 		if(data.length === 0) return this;
 		//get total
@@ -22,7 +20,7 @@
 		}
 		//append the bar
 		for (var j = data.length - 1; j >= 0; j--) {
-			this.append('<span style="width:'+((data[j].value/total)*100).toFixed(2)+'%; background-color:'+data[j].color+'; display: table-cell; line-height: 8px; text-indent: -9999px;">'+data[j].name+'</span>');
+			this.append('<span class="single-stack-slice" style="width:'+((data[j].value/total)*100).toFixed(2)+'%; background-color:'+data[j].color+';">'+data[j].name+'</span>');
 		}
 		return this;
 	};
