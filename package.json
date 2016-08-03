@@ -1,0 +1,22 @@
+{
+  "name": "single-stacked-bar",
+  "version": "0.0.1",
+  "description": "Single stacked bar similar to GitHub's language stat bar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/earllapura/single-stacked-bar.git"
+  },
+  "keywords": [
+    "bar"
+  ],
+  "author": "Earl Von Lapura <earlvon.lapura@g.msuiit.edu.ph>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/earllapura/single-stacked-bar/issues"
+  },
+  "homepage": "https://github.com/earllapura/single-stacked-bar#readme"
+}
