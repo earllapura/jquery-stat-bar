@@ -23,3 +23,40 @@
 .single-stack-bar-container .single-stack-slice:first-child {
     border-bottom-left-radius: 2px;
 }
+
+.single-stack-bar-stats {
+	position: relative;
+}
+
+.single-stack-bar-stats ol.single-stack-bar-stats-numbers li {
+    display: inline-block;
+    padding: 10px 5px;
+    text-align: center;
+    white-space: nowrap;
+    border-bottom: 0;
+}
+
+.single-stack-bar-stats ol.single-stack-bar-stats-numbers li>a, .single-stack-bar-stats ol.single-stack-bar-stats-numbers li>span {
+    font-weight: bold;
+    color: #999;
+    text-decoration: none;
+}
+
+.single-stack-bar-stats ol.single-stack-bar-stats-numbers li span {
+    margin-right: 5px;
+}
+
+.single-stack-bar-stats ol.single-stack-bar-stats-numbers li .legend-color {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.single-stack-bar-stats ol.single-stack-bar-stats-numbers li .legend-name {
+    color: #333;
+}
+
+.single-stack-bar-stats ol.single-stack-bar-stats-numbers li span.percent {
+    float: none;
+}
