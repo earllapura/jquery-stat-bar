@@ -2,7 +2,9 @@
 This JS library imitates the Language Status Bar of GitHub
 ## Dependencies
 * Jquery ~1.3
+
 ## Usage
+
 ```
 //The viewport element to view legend and details
 <div class="viewport"></div>
