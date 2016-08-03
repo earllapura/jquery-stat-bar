@@ -7,19 +7,11 @@ This JS library imitates the Language Status Bar Graph of GitHub
 ## Usage
 
 ```
-//Add the CSS file
-<script src="path/to/singleStack.css"></script>
-
-//The container class to hold stacked bar
-<div class="myClass"><div>
-
 //The viewport element to view legend and details
 <div class="viewport"></div>
-
-//Add the JS file
-<script src="path/to/singleStack.js"></script>
-
-//The main logic
+//The container class to hold stacked bar
+<div class="myClass"><div>
+...
 <script type="text/javascript">
 	//The JSON data variable
 	var myData = [
