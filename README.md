@@ -33,3 +33,10 @@ This JS library imitates the Language Status Bar Graph of GitHub
 	$('.myClass').singleStack(myData);
 </script>
 ```
+
+## Requirements
+- A `div` element as container of the graph
+- A `div` element with class name `single-stack-bar-stats` after the container element
+- The CSS and JS file of the package included in the HTML file
+- JQuery included before the singleStack
+- An array of JSON objects with attributes: name, value and color
