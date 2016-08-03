@@ -1,0 +1,15 @@
+{
+    "name": "lapura/single-stacked-bar",
+    "description": "A single stacked bar similar to GitHub's language stat bar",
+    "type": "package",
+    "require": {
+        "jquery/jquery": "1.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "earllapura",
+            "email": "earlvon.lapura@g.msuiit.edu.ph"
+        }
+    ]
+}
