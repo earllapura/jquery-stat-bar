@@ -14,7 +14,7 @@ This JS library imitates the Language Status Bar Graph of GitHub
 <div class="myClass"><div>
 
 //The viewport element to view legend and details
-<div class="viewport"></div>
+<div class="single-stack-bar-stats"></div>
 
 //Add the JS file
 <script src="path/to/jQuery.js"></script>
