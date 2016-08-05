@@ -28,7 +28,7 @@
 	position: relative;
 }
 
-.single-stack-bar-stats ol.single-stack-bar-stats-numbers li {
+.single-stack-bar-stats>ol>li.single-stack-legend-strip {
     display: inline-block;
     padding: 10px 5px;
     text-align: center;
@@ -36,27 +36,27 @@
     border-bottom: 0;
 }
 
-.single-stack-bar-stats ol.single-stack-bar-stats-numbers li>a, .single-stack-bar-stats ol.single-stack-bar-stats-numbers li>span {
+.single-stack-bar-stats ol li.single-stack-legend-strip, .single-stack-bar-stats ol li.single-stack-legend-strip>span {
     font-weight: bold;
     color: #999;
     text-decoration: none;
 }
 
-.single-stack-bar-stats ol.single-stack-bar-stats-numbers li span {
+.single-stack-bar-stats ol li.single-stack-legend-strip span {
     margin-right: 5px;
 }
 
-.single-stack-bar-stats ol.single-stack-bar-stats-numbers li .legend-color {
+.single-stack-bar-stats ol li.single-stack-legend-strip .single-stack-legend-color {
     display: inline-block;
     width: 10px;
     height: 10px;
     border-radius: 50%;
 }
 
-.single-stack-bar-stats ol.single-stack-bar-stats-numbers li .legend-name {
+.single-stack-bar-stats ol li.single-stack-legend-strip .single-stack-legend-name {
     color: #333;
 }
 
-.single-stack-bar-stats ol.single-stack-bar-stats-numbers li span.percent {
+.single-stack-bar-stats ol li.single-stack-legend-strip span.percent {
     float: none;
 }

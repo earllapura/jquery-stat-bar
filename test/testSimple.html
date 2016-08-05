@@ -7,20 +7,30 @@
 </head>
 <body>
 	<div id="graphContainer"></div>
-	<div class="single-stack-bar-stats"></div>
+	<div class="graphLegend" style="display:none"></div>
 	<script src="../node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="../src/js/singleStack.js"></script>
 	<script>
-		var myData = [
-        {name: "Element One", value: 20, color: "#00AABB"},
-        {name: "Element Two", value: 30, color: "red"},
-        {name: "Element Two", value: 80, color: "#657C22"},
-        {name: "Element Two", value: 10, color: "#6C8362"},
-        {name: "Element Two", value: 5, color: "#21332C"},
-        {name: "Element Two", value: 50, color: "#21C478"},
-        {name: "Element Two", value: 10, color: "#A54386"},
-        {name: "Element Three", value: 50, color: "green"}
-    ];
+		var myData = {
+		    graph: {
+		        clickEvent: function(e){
+		        	$('.graphLegend').slideToggle('slow');
+		        }
+		    },
+
+		    viewport: {
+		        className: 'graphLegend'
+		    },
+
+		    series:{
+		        data: [
+		            {name: 'Melon', y: 20, color: 'green'},
+		            {name: 'Apple', y: 50, color: 'red'},
+		            {name: 'Grapes', y: 10, color: 'violet'},
+		            {name: 'Orange', y: 100, color: 'orange'}
+		        ]
+		    }
+		};
 		$('#graphContainer').singleStack(myData);
 	</script>
 </body>
